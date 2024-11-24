@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
                   // Variables a usar
 function Tarjeta({ title, text, imgSrc }) { 
   return (
-  <Card style={{ width: '18rem' }}>
+  <Card style={{ width: '18rem'}}>
     
                            {/* Imagen */}
   <Card.Img variant="top" src={imgSrc} /> 

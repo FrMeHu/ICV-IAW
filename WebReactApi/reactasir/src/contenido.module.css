@@ -1,19 +1,11 @@
 main{
     background-color:greenyellow;
-    height:500px;
+    height:600px;
     width:100%;
     display:flex;
     flex:row nowrap;
     flex-direction: row;
 }
-
-
-/* /header estilos\ */
-header{
-    border: inset 10px black;
-}
-/* /header estilos\ */
-
 
 
 
@@ -31,20 +23,54 @@ nav{
 
 /* /section estilos\ */
 main section{
-    width:80%;
+    width:100%;
     background-color:rgb(226, 233, 0);
     border: dashed 5px rgb(255, 255, 255);
     border-top: none; 
-    border-right: none;
+    text-align: center;
+    justify-content: center;
+    height: 150%;
+
 }
 
+
 main section div{
+    h1{
+        font-size: 9rem;
+    }
     h2{
+        font-size: 1.7rem;
         text-align: center;
-        color: rgb(72, 133, 144);
     }
 }
 /* /section estilos\ */
+section section{
+    border: 0px;
+}
+
+section section div{ 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    div{
+        display: flex;
+        flex-direction: column;
+    } 
+
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
