@@ -2,6 +2,7 @@ import React from 'react';
 import heroes from './heroes.json';
 import styles from './theroes.module.css'
 
+// listadeheroes
 const HeroesList = () => {
 
   const publisher = "Marvel Comics";
