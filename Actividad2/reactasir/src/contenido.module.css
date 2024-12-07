@@ -1,0 +1,69 @@
+main{
+    background-color:greenyellow;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+    flex-direction: row;
+}
+
+
+/* /header estilos\ */
+header{
+    border: inset 10px black;
+}
+/* /header estilos\ */
+
+
+
+
+/* /nav estilos\ */
+nav{
+    background-color: rgba(104, 237, 188, 0.77);
+    border: dashed 5px white; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* /nav estilos\ */
+
+
+
+
+/* /section estilos\ */
+main section{
+    width:100%;
+    background-color:rgb(226, 233, 0);
+    border: dashed 5px rgb(255, 255, 255);
+    border-top: none; 
+    border-right: none;
+}
+
+main section div{
+    h2{
+        text-align: center;
+        color: rgb(72, 133, 144);
+    }
+}
+/* /section estilos\ */
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+    aside{
+        display:none;
+    }
+    main section{
+        width: 100%;
+    }
+
+  }
+
